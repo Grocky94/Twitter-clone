@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#screen {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#screen-adjust {
+    height: 100vh;
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-body {
+    /* height: 100vh; */
+    width: 25%;
+    border: 1px solid black;
+    position: sticky;
+}
+
+#middle-body {
+    /* height: 100vh; */
+    width: 45%;
+    border: 1px solid black;
+}
+
+#right-body {
+    height: 100vh;
+    width: 29%;
+    border: 1px solid black;
+}
+
+#logo {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.fa-twitter {
+    font-size: 1.8em;
+    color: #1d9bf0;
+}
+
+.list-nav {
+    height: 6vh;
+    width: fit-content;
+    flex-wrap: nowrap;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    gap: 30px;
+}
+
+.list-nav>i {
+    font-size: 1.2em;
+}
+
+.list-nav>span {
+    font-size: 1.5em;
+}
+
+.list-nav:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+#tweet-btn {
+    height: 6vh;
+    width: 80%;
+    border: 1px solid #1d9bf0;
+    border-radius: 20px;
+    margin-top: 2%;
+    font-size: 1.2em;
+    background-color: #1d9bf0;
+    color: white;
+    font-weight: 600;
+}
+
+#user {
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-pic {
+    height: 8vh;
+    width: 20%;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+.user-pic>img {
+    height: 100%;
+    width: 100%;
+}
+
+#user-d {
+    height: 10vh;
+    width: 65%;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+#user-d>p:nth-child(1) {
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 1.5em;
+}
+
+#user-d>p:nth-child(2) {
+    margin-left: 2%;
+    opacity: 0.8;
+}
+
+#ellip {
+    height: 10vh;
+    width: 10%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#stickthem {
+    width: 100%;
+    border: 1px solid black;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+#home {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#home>span {
+    margin-left: 2%;
+}
+
+#for-following {
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: end;
+}
+
+#for-following>div {
+    height: 80%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#for-following>div>div {
+    height: 100%;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+#for-following>div>div:hover {
+    border-bottom: 5px solid #1d9bf0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#post-div {
+    /* height: 10vh; */
+    width: 100%;
+    border: 1px solid black;
+}
+
+#align-inside-post-div {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#user-post-pic {
+    height: 6vh;
+    width: 8%;
+    border-radius: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+
+#user-post-pic>img {
+    height: 100%;
+    width: 100%;
+}
+
+#input-icons {
+    height: 100%;
+    width: 93%;
+    border: 1px solid black;
+}
+
+#every {
+    height: 4vh;
+    width: fit-content;
+    padding: 0 1%;
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: #1d9bf0;
+}
+
+#every>select {
+    border: none;
+    outline: none;
+    color: #1d9bf0;
+}
+
+#post-input {
+    height: 5vh;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#below-post-input {
+    height: 4vh;
+    width: fit-content;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 2%;
+    color: #1d9bf0;
+}
+
+#subit-user-post {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+#icon-within-post {
+    height: 100%;
+    width: 67%;
+    margin-left: auto;
+    margin-right: 0%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#icon-within-post>i {
+    margin-left: 5%;
+    color: #1d9bf0;
+}
+
+#btn-withing-post {
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#post-tweet-btn {
+    height: 6vh;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #1d9bf0;
+    color: white;
+}
+
+#search {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+#inner-search {
+    height: 6vh;
+    width: 95%;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #eff3f4;
+}
+#inner-search>i{
+    font-size: 1.2em;
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+#inner-search>input{
+    height:100%;
+    width:85%;
+    position: absolute;
+    right:0px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    background-color: #eff3f4;
+}
+#get-verify{
+    height:20vh;
+    width:95%;
+    margin: auto;
+    border:1px solid black;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+#get-verify>p:nth-child(1){
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#get-verify>p:nth-child(2){
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#get-verify>button{
+    height:6vh;
+    width:40%;
+    padding: 0 2%;
+
+}
