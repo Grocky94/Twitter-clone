@@ -387,6 +387,17 @@
     border:1px solid black;
     margin-left: auto;
     margin-right: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.likes>span{
+    display: flex;
+
+}
+.likes>span>i{
+    font-size: 1.1em;
+   margin-right: 2%;
 }
 
 #search {
