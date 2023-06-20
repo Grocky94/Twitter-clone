@@ -6,37 +6,44 @@
 }
 
 #screen {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     border: 1px solid black;
 }
 
 #screen-adjust {
-    height: 100vh;
+    /* height: 100vh; */
     width: 80%;
     border: 1px solid black;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 #left-body {
     /* height: 100vh; */
-    width: 25%;
+    width: 20%;
     border: 1px solid black;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    left: 10%;
 }
 
 #middle-body {
     /* height: 100vh; */
-    width: 45%;
+    width: 44%;
     border: 1px solid black;
+    position: absolute;
+    left: 26%;
 }
 
 #right-body {
-    height: 100vh;
+    /* height: 100vh; */
     width: 29%;
     border: 1px solid black;
+    position: absolute;
+    right: 0%;
 }
 
 #logo {
@@ -146,7 +153,9 @@
     border: 1px solid black;
     position: sticky;
     top: 0px;
-    z-index: 2;
+    z-index: 1;
+    background-color: white;
+    opacity: 0.9;
 }
 
 #home {
@@ -304,6 +313,82 @@
     color: white;
 }
 
+.showcase {
+    /* height: 60vh; */
+    width: 100%;
+    border: 1px solid black;
+    
+}
+.showcase-first-align{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+.only-for-page-user-img {
+    height: 10vh;
+    width: 15%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.only-for-page-user-img>div {
+    height: 80%;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.only-for-page-user-img>div>img{
+    height:100%;
+    width:100%;
+}
+.showcase-title{
+    height:10vh;
+    width:75%;
+    border:1px solid black;
+}
+.showcase-title>p:nth-child(1)>i{
+    gap: 1%;
+}
+.showcase-title>p:nth-child(1)>i{
+    color: #1d9bf0;
+}
+.showcase-ellip{
+    height:4vh;
+    width:10%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.content-div{
+    margin-left: auto;
+    margin-right: 0%;
+    /* height:30vh; */
+    width:85%;
+    border:1px solid black;
+}
+.content-div>div{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content-div>div>video{
+    height: fit-content;
+    width: fit-content;
+    object-fit: cover;
+}
+.likes{
+    height:5vh;
+    width:85%;
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
 #search {
     height: 8vh;
     width: 100%;
@@ -313,6 +398,8 @@
     justify-content: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
+    background-color: white;
 }
 
 #inner-search {
@@ -324,45 +411,188 @@
     overflow: hidden;
     background-color: #eff3f4;
 }
-#inner-search>i{
+
+#inner-search>i {
     font-size: 1.2em;
     position: absolute;
     left: 15px;
     top: 12px;
 }
-#inner-search>input{
-    height:100%;
-    width:85%;
+
+#inner-search>input {
+    height: 100%;
+    width: 85%;
     position: absolute;
-    right:0px;
+    right: 0px;
     font-size: 1.2em;
     border: none;
     outline: none;
     background-color: #eff3f4;
 }
-#get-verify{
-    height:20vh;
-    width:95%;
+
+#get-verify {
+    /* height: 20vh; */
+    width: 95%;
     margin: auto;
-    border:1px solid black;
+    border: 1px solid black;
     margin-top: 2%;
     border-radius: 10px;
+    background-color: #eff3f4;
 }
-#get-verify>p:nth-child(1){
+
+#get-verify>p:nth-child(1) {
     font-size: 1.5em;
     font-weight: 600;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin: 2%;
 }
-#get-verify>p:nth-child(2){
+
+#get-verify>p:nth-child(2) {
     font-size: 1.1em;
     font-weight: 600;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin: 2%;
 }
-#get-verify>button{
-    height:6vh;
-    width:40%;
-    padding: 0 2%;
 
+#get-verify>button {
+    height: 6vh;
+    width: 40%;
+    padding: 0 2%;
+    border-radius: 50px;
+    font-size: 1.2em;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin: 2%;
+}
+
+#happening {
+    /* height:50vh; */
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 2%;
+    background-color: #eff3f4;
+}
+
+#happening>p:nth-child(1) {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 2%;
+
+}
+
+.trending-divs {
+    /* height:10vh; */
+    width: 95%;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.trending-divs>div:nth-child(1) {
+    height: fit-content;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.trending-divs>div:nth-child(1)>p:nth-child(2) {
+    font-weight: 600;
+}
+
+.trending-divs>div:nth-child(2) {
+    height: fit-content;
+    width: 10%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#happening>p:last-child {
+    color: #1d9bf0;
+    margin: 2%;
+}
+
+#follow-Whom {
+    /* height: 40vh; */
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2%;
+    background-color: #eff3f4;
+}
+
+#follow-Whom>p:nth-child(1) {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 2%;
+}
+
+.follow-new-page-div {
+    /* height: 10vh; */
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2%;
+
+}
+
+.new-page-img {
+    height: 7vh;
+    width: 16%;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.new-page-img>img {
+    height: 100%;
+    width: 100%;
+}
+
+.page-title {
+    height: 8vh;
+    width: 55%;
+    border: 1px solid black;
+}
+
+.page-title>p:nth-child(1)>span {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.page-title>p:nth-child(1)>i {
+    color: #1d9bf0;
+}
+
+.page-title>p:nth-child(2) {
+    opacity: 0.8;
+}
+
+.page-follow-btn {
+    height: 8vh;
+    width: 28%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-follow-btn>button {
+    height: 5vh;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#follow-Whom>p:last-child {
+    color: #1d9bf0;
+    margin: 2%;
 }
