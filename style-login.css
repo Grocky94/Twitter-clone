@@ -4,6 +4,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+    background-color: #d4d7d8;
+}
 #loginNsignup {
     /* height: 90vh; */
     width: 40%;
@@ -12,6 +15,7 @@
     margin: auto;
     margin-top: 5%;
     position: relative;
+    background-color: white;
 }
 #loginNsignup >span{
     position: absolute;

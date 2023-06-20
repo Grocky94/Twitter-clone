@@ -8,13 +8,13 @@
 #screen {
     /* height: 100vh; */
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #screen-adjust {
     /* height: 100vh; */
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@
 #left-body {
     /* height: 100vh; */
     width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: fixed;
     top: 0px;
     left: 10%;
@@ -33,7 +33,7 @@
 #middle-body {
     /* height: 100vh; */
     width: 44%;
-    border: 1px solid black;
+    border: 1px solid #eff3f4;
     position: absolute;
     left: 26%;
 }
@@ -41,7 +41,7 @@
 #right-body {
     /* height: 100vh; */
     width: 29%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: absolute;
     right: 0%;
 }
@@ -49,7 +49,7 @@
 #logo {
     height: 8vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
 }
@@ -65,7 +65,7 @@
     flex-wrap: nowrap;
     padding-left: 2%;
     padding-right: 2%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
 #user {
     height: 10vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
@@ -111,7 +111,7 @@
     height: 8vh;
     width: 20%;
     border-radius: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 1%;
     overflow: hidden;
 }
@@ -124,7 +124,7 @@
 #user-d {
     height: 10vh;
     width: 65%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex-direction: column;
 }
 
@@ -142,7 +142,7 @@
 #ellip {
     height: 10vh;
     width: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +150,7 @@
 
 #stickthem {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #eff3f4;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -161,7 +161,7 @@
 #home {
     height: 8vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     font-size: 1.5em;
@@ -175,7 +175,7 @@
 #for-following {
     height: 10vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: end;
 }
@@ -183,7 +183,7 @@
 #for-following>div {
     height: 80%;
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,12 +207,12 @@
 #post-div {
     /* height: 10vh; */
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #eff3f4;
 }
 
 #align-inside-post-div {
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
 }
@@ -221,7 +221,7 @@
     height: 6vh;
     width: 8%;
     border-radius: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: hidden;
 
 }
@@ -234,7 +234,7 @@
 #input-icons {
     height: 100%;
     width: 93%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #every {
@@ -256,14 +256,17 @@
 
 #post-input {
     height: 5vh;
-    width: 100%;
+    width: 95%;
+    margin-left: 3%;
     font-size: 1.5em;
+    border: none;
+    outline: none;
 }
 
 #below-post-input {
     height: 4vh;
     width: fit-content;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -274,7 +277,7 @@
 #subit-user-post {
     height: 8vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 
@@ -283,7 +286,7 @@
     width: 67%;
     margin-left: auto;
     margin-right: 0%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
 }
@@ -296,7 +299,7 @@
 #btn-withing-post {
     height: 100%;
     width: 25%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,18 +319,18 @@
 .showcase {
     /* height: 60vh; */
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #eff3f4;
     
 }
 .showcase-first-align{
     width: 100%;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .only-for-page-user-img {
     height: 10vh;
     width: 15%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -336,7 +339,7 @@
 .only-for-page-user-img>div {
     height: 80%;
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50%;
     overflow: hidden;
 }
@@ -345,9 +348,9 @@
     width:100%;
 }
 .showcase-title{
-    height:10vh;
+    /* height:10vh; */
     width:75%;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .showcase-title>p:nth-child(1)>i{
     gap: 1%;
@@ -355,10 +358,15 @@
 .showcase-title>p:nth-child(1)>i{
     color: #1d9bf0;
 }
+.small-image{
+    height:20px;
+    width:20px;
+    /* border:1px solid black; */
+}
 .showcase-ellip{
     height:4vh;
     width:10%;
-    border:1px solid black;
+    /* border:1px solid black; */
     display: flex;
     justify-content: center;
 }
@@ -367,12 +375,12 @@
     margin-right: 0%;
     /* height:30vh; */
     width:85%;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .content-div>div{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     overflow: hidden;
 }
@@ -381,10 +389,16 @@
     width: fit-content;
     object-fit: cover;
 }
+.content-div>div>img{
+    height: fit-content;
+    width: fit-content;
+    object-fit: cover;
+}
+
 .likes{
     height:5vh;
     width:85%;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-left: auto;
     margin-right: 0%;
     display: flex;
@@ -403,7 +417,7 @@
 #search {
     height: 8vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -416,7 +430,7 @@
 #inner-search {
     height: 6vh;
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
     border-radius: 50px;
     overflow: hidden;
@@ -445,7 +459,7 @@
     /* height: 20vh; */
     width: 95%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 2%;
     border-radius: 10px;
     background-color: #eff3f4;
@@ -479,7 +493,7 @@
 #happening {
     /* height:50vh; */
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     border-radius: 10px;
     margin-top: 2%;
@@ -496,7 +510,7 @@
 .trending-divs {
     /* height:10vh; */
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     margin: auto;
     margin-top: 2%;
@@ -505,7 +519,7 @@
 .trending-divs>div:nth-child(1) {
     height: fit-content;
     width: 90%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .trending-divs>div:nth-child(1)>p:nth-child(2) {
@@ -515,7 +529,7 @@
 .trending-divs>div:nth-child(2) {
     height: fit-content;
     width: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,13 +538,14 @@
 #happening>p:last-child {
     color: #1d9bf0;
     margin: 2%;
+    padding-bottom: 2%;
 }
 
 #follow-Whom {
     /* height: 40vh; */
     width: 95%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     margin-top: 2%;
     background-color: #eff3f4;
@@ -545,7 +560,7 @@
 .follow-new-page-div {
     /* height: 10vh; */
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     display: flex;
     margin-bottom: 2%;
@@ -555,7 +570,7 @@
 .new-page-img {
     height: 7vh;
     width: 16%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50px;
     overflow: hidden;
     margin-top: 1%;
@@ -569,7 +584,7 @@
 .page-title {
     height: 8vh;
     width: 55%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .page-title>p:nth-child(1)>span {
@@ -588,7 +603,7 @@
 .page-follow-btn {
     height: 8vh;
     width: 28%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -606,4 +621,14 @@
 #follow-Whom>p:last-child {
     color: #1d9bf0;
     margin: 2%;
+    padding-bottom: 2%;
+}
+#right-body>div:last-child{
+    width:95%;
+    /* border:1px solid black; */
+    margin: auto;
+    margin-bottom: 2%;
+    opacity: 0.9;
+    font-size: 0.9em;
+    text-align: center;
 }
