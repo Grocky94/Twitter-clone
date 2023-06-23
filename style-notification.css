@@ -33,7 +33,7 @@
 #middle-body {
     /* height: 100vh; */
     width: 44%;
-    border: 1px solid black;
+    border: 1px solid #eff3f4;
     position: absolute;
     left: 26%;
 }
@@ -41,7 +41,7 @@
 #right-body {
     /* height: 100vh; */
     width: 29%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: absolute;
     right: 0%;
 }
@@ -168,14 +168,14 @@
 #title-div {
     height: 8vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 
 #inner-title-div {
     height: 8vh;
     width: 90%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
 }
@@ -189,7 +189,7 @@
 #setting-log-div {
     height: 8vh;
     width: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,7 +205,7 @@
 #mid-area-list>div {
     height: 8vh;
     width: 35%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +232,7 @@
 .message-inbox{
     height:40vh;
     width:60%;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin: auto;
 }
 .message-inbox>p{
