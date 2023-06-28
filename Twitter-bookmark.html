@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter notifications Page</title>
-    <link rel="stylesheet" href="style-notification.css" />
+    <title>Twitter Bookmark Page</title>
+    <link rel="stylesheet" href="style-bookmark.css" />
     <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,11 +18,13 @@
                             href="twitter-homePage.html">Home</a></span></div>
                 <div class="list-nav"><i class="fa-solid fa-magnifying-glass"></i><span><a
                             href="Twitter-explore.html">Explore</a></span></div>
-                <div class="list-nav"><i class="fa-regular fa-bell"></i><span>Notification</span></div>
+                <div class="list-nav"><i class="fa-regular fa-bell"></i><span><a
+                            href="Twitter-notification.html">Notification</a></span></div>
                 <div class="list-nav"><i class="fa-regular fa-envelope"></i><span><a
                             href="Twitter-messages.html">Message</a></span></div>
-                <div class="list-nav"><i class="fa-regular fa-file-lines"></i><span><a href="Twitter-list.html">List</a></span></div>
-                <div class="list-nav"><i class="fa-regular fa-bookmark"></i><span><a href="Twitter-bookmark.html">Bookmarks</a></span></div>
+                <div class="list-nav"><i class="fa-regular fa-file-lines"></i><span><a
+                            href="Twitter-list.html">List</a></span></div>
+                <div class="list-nav"><i class="fa-regular fa-bookmark"></i><span>Bookmarks</span></div>
                 <div class="list-nav"><i class="fa-solid fa-check "></i><span>Verified</span></div>
                 <div class="list-nav"><i class="fa-regular fa-user"></i><span><a
                             href="Twitter-profile.html">Profile</a></span></div>
@@ -41,32 +43,24 @@
             </div>
             <div id="middle-body">
                 <div id="stickthem">
-                    <div id="title-div">
-                        <div id="inner-title-div">
-                            <p>Notification</p>
-                        </div>
-                        <div id="setting-log-div">
-                            <i class="fa-solid fa-gear"></i>
-                        </div>
+                    <div id="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
                     </div>
-                    <div id="mid-area-list">
-                        <div id="for-all">
-                            <div>All</div>
-                        </div>
-                        <div id="for-verified">
-                            <div>Verified</div>
-                        </div>
-                        <div id="for-mentions">
-                            <div>Mentions</div>
-                        </div>
+                    <div id="self">
+                        <span>Bookmark</span>
+                        <p>@rockygomeshere</p>
                     </div>
                 </div>
-                <div class="message-inbox">
-                    <p>Nothing to see here <i class="fa-solid fa-minus"></i> <br>yet</p>
-                    <p>From likes to Retweets and a whole lot more, this is where all the action happens.</p>
+                <div id="for-saved-bookmark">
+                    <div id="saved-bookmark-img-div">
+                        <img src="https://abs.twimg.com/responsive-web/client-web/book-in-bird-cage-800x400.v1.71804389.png"/>
+                    </div>
+                    <div id="saved-bookmark-para">
+                        <p>Save Tweets for later</p>
+                        <p>Don’t let the good ones fly away! Bookmark Tweets to easily find them again in the future.</p>
+                    </div>
                 </div>
             </div>
-
             <div id="right-body">
                 <div id="search">
                     <div id="inner-search">

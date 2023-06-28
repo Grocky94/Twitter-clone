@@ -4,24 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter Profile page</title>
+    <title>Twitter home page</title>
     <link rel="stylesheet" href="style-homePage.css" />
     <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="screen">
+        <div id="filter-box">
+            <span id="cross">X</span>
+            <div id="align-div-filter-box">
+                <div id="filter-box-logo">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div id="WRY">
+                    <p>Who are you</p>
+                    <p>Choose the right Verified subscription for you:</p>
+                </div>
+                <div id="choice-account">
+                    <div id="for-individual">
+                        <p>Twitter Blue</p>
+                        <p>I am an individual</p>
+                        <p>For individuals and creators</p>
+                    </div>
+                    <div id="for-organization">
+                        <p>Verified organizations</p>
+                        <p>I am an organization</p>
+                        <p>For Bussiness, government agencies, and non-profits</p>
+                    </div>
+                </div>
+                <div id="filter-subscription-div">
+                    <button>Subscription</button>
+                </div>
+                <div>
+                    <p>Learn more about <a>Twitter Blue</a> and <a>Verified Organizations</a></p>
+                </div>
+            </div>
+        </div>
         <div id="screen-adjust">
             <div id="left-body">
                 <div id="logo"><i class="fa-brands fa-twitter"></i></div>
                 <div class="list-nav"><i class="fa-solid fa-house"></i><span>Home</span></div>
-                <div class="list-nav"><i class="fa-solid fa-magnifying-glass"></i><span><a href="Twitter-explore.html">Explore</a></span></div>
-                <div class="list-nav"><i class="fa-regular fa-bell"></i><span><a href="Twitter-notification.html">Notification</a></span></div>
-                <div class="list-nav"><i class="fa-regular fa-envelope"></i><span><a href="Twitter-messages.html">Message</a></span></div>
-                <div class="list-nav"><i class="fa-regular fa-file-lines"></i><span>List</span></div>
-                <div class="list-nav"><i class="fa-regular fa-bookmark"></i><span>Bookmarks</span></div>
-                <div class="list-nav"><i class="fa-solid fa-check "></i><span>Verified</span></div>
-                <div class="list-nav"><i class="fa-regular fa-user"></i><span><a href="Twitter-profile.html">Profile</a></span></div>
+                <div class="list-nav"><i class="fa-solid fa-magnifying-glass"></i><span><a
+                            href="Twitter-explore.html">Explore</a></span></div>
+                <div class="list-nav"><i class="fa-regular fa-bell"></i><span><a
+                            href="Twitter-notification.html">Notification</a></span></div>
+                <div class="list-nav"><i class="fa-regular fa-envelope"></i><span><a
+                            href="Twitter-messages.html">Message</a></span></div>
+                <div class="list-nav"><i class="fa-regular fa-file-lines"></i><span><a
+                            href="Twitter-list.html">List</a></span></div>
+                <div class="list-nav"><i class="fa-regular fa-bookmark"></i><span><a href="Twitter-bookmark.html">Bookmarks</a></span></div>
+                <div class="list-nav" id="Verified"><i class="fa-solid fa-check "></i><span>Verified</span></div>
+                <div class="list-nav"><i class="fa-regular fa-user"></i><span><a
+                            href="Twitter-profile.html">Profile</a></span></div>
                 <div class="list-nav"><i class="fa-solid fa-ellipsis"></i><span>More</span></div>
                 <button id="tweet-btn">Tweet</button>
                 <div id="user">
@@ -94,7 +129,7 @@
                     </div>
                     <div class="content-div">
                         <div>
-                            <video preload="auto"  controls loop playsinline style="height: 40vh;"
+                            <video preload="auto" controls loop playsinline style="height: 40vh;"
                                 src="https://video.twimg.com/tweet_video/Fy8uT63aYAEBnA6.mp4"></video>
                         </div>
                     </div>
@@ -257,7 +292,7 @@
         </div>
 
     </div>
-
+    <script src="hompage.js"></script>
 </body>
 
 </html>
