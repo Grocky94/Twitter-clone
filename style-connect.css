@@ -164,30 +164,16 @@
     opacity: 0.9;
     /* border: 1px solid black; */
 }
-
-#title-div {
+#connect-name {
     height: 8vh;
     width: 100%;
     /* border: 1px solid black; */
     display: flex;
+    justify-content: space-between;
 }
 
-#inner-title-div {
-    height: 8vh;
-    width: 90%;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-}
-
-#inner-title-div>p {
-    margin-left: 2%;
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-#setting-log-div {
-    height: 8vh;
+#connect-name>div:nth-child(1) {
+    height: 100%;
     width: 10%;
     /* border: 1px solid black; */
     display: flex;
@@ -195,54 +181,155 @@
     justify-content: center;
 }
 
-#mid-area-list {
-    height: 8vh;
-    width: 100%;
-    /* border:1px solid black; */
-    display: flex;
-}
-
-#mid-area-list>div {
-    height: 8vh;
-    width: 35%;
+#connect-name>div:nth-child(2) {
+    height: 100%;
+    width: 85%;
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#follow-suggestion-parent {
+    /* height: 60vh; */
+    width: 100%;
+    border: 1px solid #f0f0f0;
 }
 
-#mid-area-list>div>div {
-    height: 100%;
-    width: fit-content;
-    /* border-bottom:5px solid #1d9bf0; */
+#head-of-follow-suggestion {
+    height: 5vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#head-of-follow-suggestion>p {
+    margin-left: 2%;
+}
+
+.page-followed-suggestion {
+    /* height: 15vh; */
+    width: 100%;
+    border: 1px solid #f0f0f0;
+}
+.page-followed-suggestion:hover{
+    background-color: #f0f0f0;
+}
+
+.followed-page-name {
+    height: 4vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.followed-page-name>div:nth-child(1) {
+    height: 4vh;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.followed-page-name>div:nth-child(2) {
+    height: 4vh;
+    width: 82%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.suggested-page-photo-n-name {
+    /* height: 10vh; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.suggested-page-photo-n-name>div:nth-child(1){
+    height:6vh;
+    width:15%;
+    /* border:1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-#for-all>div {
-    border-bottom: 5px solid #1d9bf0;
-}
-
-#mid-area-list>div>div:hover {
-    border-bottom: 5px solid #1d9bf0;
-    cursor: pointer;
-}
-
-.message-inbox{
-    height:40vh;
-    width:60%;
+.div-to-place-img{
+    height:100%;
+    width:82%;
     /* border:1px solid black; */
-    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
 }
-.message-inbox>p{
+.withRound{
+width: 62%;
+border-radius: 50%;
+}
+.div-to-place-img>img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.name-n-follow-btn{
+    /* height:6vh; */
+    width:82%;
+    /* border:1px solid black; */
+    display: flex;
+}
+.name-n-follow-btn>div:nth-child(1){
+    height:6vh;
+    width:72%;
+    /* border:1px solid black; */
+}
+.name-n-follow-btn>div:nth-child(1)>p:nth-child(1){
+    font-size: 1.2em;
+}
+
+.name-n-follow-btn>div:nth-child(1)>p:nth-child(1)>i{
     margin-left: 2%;
+    color: #1d9bf0;
 }
-.message-inbox>p:nth-child(1){
-    font-size: 1.8em;
-    font-weight: 600;
-    margin-top: 10%;
+.suggested-follow-btn{
+    height:6vh;
+    width:30%;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.suggested-follow-btn>button{
+    height:5vh;
+    width:60%;
+    border-radius: 20px;
+    border-width: 1px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+}
+.suggested-page-description{
+    /* height:10vh; */
+    width:82%;
+    /* border:1px solid black; */
+    margin-left: auto;
+    margin-right: 0%;
+}
+.small-my-image{
+    height: 20px;
+    width: 20px;
+    /* border: 1px solid black; */
+}
+.remove-decoration{
+    text-decoration: none;
+    color: #1d9bf0;
+}
+
 
 #search {
     height: 8vh;

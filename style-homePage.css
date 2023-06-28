@@ -350,6 +350,14 @@
     background-color: white;
     position: absolute;
 }
+.child-more-div>a>div {
+    height: 7vh;
+    width: 100%;
+    /* border:1px solid black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 
 .child-more-div>div {
     height: 7vh;
@@ -359,8 +367,15 @@
     display: flex;
     align-items: center;
 }
+.child-more-div>a>div>p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 2%;
+    display: flex;
+    color: black;
+}
 
-.child-more-div>div:nth-child(1)>p {
+.child-more-div>div>p {
     font-size: 1.5em;
     font-weight: 600;
     margin-left: 2%;
@@ -369,6 +384,9 @@
 
 .border-it-bottom {
     border-bottom: 1px solid #eff3f4;
+}
+.child-more-div>a>div:nth-child(1)>p>span {
+    margin: 0 15px;
 }
 
 .child-more-div>div:nth-child(1)>p>span {
